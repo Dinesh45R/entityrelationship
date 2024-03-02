@@ -35,7 +35,7 @@ public class BankController {
 	public String getMethodName(@PathVariable String a) throws BrandNotFoundException{
 		return bs.getbranch(a);
 	}
-	@GetMapping("throw/{a}")
+	@GetMapping("dinesh/{a}")
 	public String findbranch(@RequestParam String  a) {
 		return bs.findbranch (a);
 	}
